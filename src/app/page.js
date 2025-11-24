@@ -35,19 +35,19 @@ export default function Home() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-10 text-lg font-medium text-white">
-          <a href="#" className="hover:text-yellow-300 transition">
+          <a href="/" className="hover:text-yellow-300 transition">
             Home
           </a>
-          <a href="#about" className="hover:text-yellow-300 transition">
+          <a href="/about" className="hover:text-yellow-300 transition">
             About
           </a>
-          <a href="#gallery" className="hover:text-yellow-300 transition">
+          <a href="/gallery" className="hover:text-yellow-300 transition">
             Gallery
           </a>
-          <a href="#team" className="hover:text-yellow-300 transition">
+          <a href="/team" className="hover:text-yellow-300 transition">
             Team
           </a>
-          <a href="#updates" className="hover:text-yellow-300 transition">
+          <a href="/updates" className="hover:text-yellow-300 transition">
             Updates
           </a>
         </nav>
@@ -73,7 +73,7 @@ export default function Home() {
               {["Home", "About", "Gallery", "Team", "Updates"].map((item) => (
                 <a
                   key={item}
-                  href={`#${item.toLowerCase()}`}
+                  href={`/${item.toLowerCase()}`}
                   className="text-purple-900 dark:text-purple-200 text-lg hover:text-yellow-300 transition"
                   onClick={() => setOpen(false)}
                 >
