@@ -144,7 +144,7 @@ export default function Home() {
             animate={{ y: [0, -14, 0] }}
             transition={{ duration: 3, repeat: Infinity }}
           >
-            🌈
+            🚀
           </motion.span>
           <motion.span
             animate={{ y: [0, -12, 0] }}
