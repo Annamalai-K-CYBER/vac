@@ -16,13 +16,13 @@ export default function UpdatesPage() {
     desc: "Celebrating Vagish’s birthday and the official launch of our friendship website! 💜",
     date: "Nov 2025",
     song: "https://ik.imagekit.io/9t9wl5ryo/123.mp3",
-    "2": {
+  },{
+    id: "2",
     title: "Whity BirthDay 🎉",
     desc: "Celebrating Whity's birthday! 💜",
     date: "2nd Jan 2026",
     image: "https://ik.imagekit.io/9t9wl5ryo/IMG_20260102_111451.png",
     song: "https://ik.imagekit.io/9t9wl5ryo/WhatsApp%20Audio%202026-01-02%20at%207.52.21%20AM.mpeg",
-  },
   },
 ];
 
